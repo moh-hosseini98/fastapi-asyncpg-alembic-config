@@ -28,7 +28,7 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: PYTHONPATH=. pytest -v
+        run: pytest -v
 
   deploy:
     needs: test
