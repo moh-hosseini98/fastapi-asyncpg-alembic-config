@@ -46,5 +46,5 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag my-app:latest mohhosseini1998/my-fastapi:latest
+          docker tag my-fastapi:latest mohhosseini1998/my-fastapi:latest
           docker push mohhosseini1998/my-fastapi:latest
